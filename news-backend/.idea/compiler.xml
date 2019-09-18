@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-web-vs-spring-webflux.performance-tests-gatling.main" target="11" />
+      <module name="spring-web-vs-spring-webflux.performance-tests-gatling.test" target="11" />
+      <module name="spring-web-vs-spring-webflux.product-store.main" target="11" />
+      <module name="spring-web-vs-spring-webflux.product-store.test" target="11" />
+      <module name="spring-web-vs-spring-webflux.spring-boot-web.main" target="11" />
+      <module name="spring-web-vs-spring-webflux.spring-boot-web.test" target="11" />
+      <module name="spring-web-vs-spring-webflux.spring-boot-webflux.main" target="11" />
+      <module name="spring-web-vs-spring-webflux.spring-boot-webflux.test" target="11" />
+      <module name="weekly-news-backend.main" target="11" />
+      <module name="weekly-news-backend.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
