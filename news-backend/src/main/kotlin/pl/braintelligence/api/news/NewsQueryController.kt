@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseStatus
 import org.springframework.web.bind.annotation.RestController
 import pl.braintelligence.api.Endpoints
 import pl.braintelligence.core.news.News
-import pl.braintelligence.core.news.NewsService
+import pl.braintelligence.core.ports.incoming.NewsService
 
 @RestController
 @RequestMapping(Endpoints.API_NEWS)

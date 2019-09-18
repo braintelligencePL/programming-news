@@ -4,7 +4,7 @@ import org.springframework.data.repository.CrudRepository
 import org.springframework.stereotype.Component
 import org.springframework.stereotype.Repository
 import pl.braintelligence.core.news.News
-import pl.braintelligence.core.news.NewsCreatorRepository
+import pl.braintelligence.core.ports.outgoing.NewsRepository
 import pl.braintelligence.infrastructure.postgres.news.entities.DbNews
 import pl.braintelligence.logger
 
@@ -12,9 +12,9 @@ import pl.braintelligence.logger
 interface PostgresNewsRepository : CrudRepository<DbNews, Long>
 
 @Component
-class NewsCreatorRepositoryImpl(
+class NewsRepositoryImpl(
         private val postgresNewsRepository: PostgresNewsRepository
-) : NewsCreatorRepository {
+) : NewsRepository {
 
     private val log by logger()
 
