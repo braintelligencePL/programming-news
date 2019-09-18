@@ -9,10 +9,3 @@ spring:
     username: ${POSTGRES_USERNAME}
     password: ${POSTGRES_PASSWORD}
     driver-class-name: org.postgresql.Driver
-
-logging:
-  level:
-    org:
-      springframework:
-        transaction:
-          interceptor: TRACE
