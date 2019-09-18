@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f730086b-5458-412e-8e8d-b3c7bf7b4da3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/api/news/dto/NewTag.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/core/news/NewsServiceImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/core/news/TagsServiceImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/core/ports/incoming/NewsService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/core/ports/incoming/TagsService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/core/ports/outgoing/NewsRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/core/ports/outgoing/TagsRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/infrastructure/postgres/news/TagsRepositoryImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/infrastructure/postgres/news/entities/DbTags.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../news-backend/src/test/groovy/pl/braintelligence/news/TagsControllerTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/out/production/classes/pl/braintelligence/api/news/NewsCreatorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/out/production/classes/pl/braintelligence/api/news/NewsCreatorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/out/production/classes/pl/braintelligence/api/news/NewsQueryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/out/production/classes/pl/braintelligence/api/news/NewsQueryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/out/production/classes/pl/braintelligence/api/news/NewsTagsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/out/production/classes/pl/braintelligence/core/news/NewsCreatorRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/out/production/classes/pl/braintelligence/core/news/NewsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/out/production/classes/pl/braintelligence/infrastructure/postgres/news/NewsCreatorRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/out/production/classes/pl/braintelligence/infrastructure/postgres/news/PostgresNewsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/out/production/classes/pl/braintelligence/infrastructure/postgres/news/PostgresNewsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/out/production/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/out/production/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/out/test/classes/pl/braintelligence/news/NewsControllerTest$__spock_feature_1_0_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/out/test/classes/pl/braintelligence/news/NewsControllerTest$__spock_feature_1_0_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/out/test/classes/pl/braintelligence/news/NewsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/out/test/classes/pl/braintelligence/news/NewsControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/api/news/NewsCreatorController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/api/news/NewsCreatorController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/api/news/NewsQueryController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/api/news/NewsQueryController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/api/news/NewsTagsController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/api/news/TagsController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/core/news/NewsRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/core/news/NewsService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/infrastructure/postgres/Collections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/infrastructure/postgres/Collections.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/infrastructure/postgres/news/NewsCreatorRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/infrastructure/postgres/news/NewsRepositoryImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../news-backend/src/test/groovy/pl/braintelligence/news/NewsControllerTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/src/test/groovy/pl/braintelligence/news/NewsControllerTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../news-backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/api/Endpoints.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../news-backend/src/main/kotlin/pl/braintelligence/api/Endpoints.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568360247387</updated>
       <workItem from="1568360250236" duration="93000" />
-      <workItem from="1568818757838" duration="2173000" />
+      <workItem from="1568818757838" duration="2726000" />
     </task>
     <servers />
   </component>
